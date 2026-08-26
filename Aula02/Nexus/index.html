@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Nexus — uma comunidade onde ideias, discussões e pessoas se encontram."
+    >
+
+    <title>Nexus — Conecte-se às suas comunidades</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-atom"></i>
+                </span>
+                <span>Nexus</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#comunidades">Comunidades</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="btn-login">Entrar</button>
+                <button class="btn-primary">Criar conta</button>
+            </div>
+
+            <button class="mobile-menu" id="mobileMenu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="hero-badge">
+                    <span class="pulse"></span>
+                    A nova geração de comunidades online
+                </div>
+
+                <h1>
+                    Encontre seu lugar.
+                    <span>Compartilhe o que importa.</span>
+                </h1>
+
+                <p>
+                    Conecte-se com pessoas que compartilham seus interesses,
+                    descubra novas ideias e participe de comunidades que
+                    fazem sentido para você.
+                </p>
+
+                <div class="hero-actions">
+                    <button class="btn-primary btn-large" id="joinButton">
+                        Começar agora
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <a href="#comunidades" class="btn-secondary btn-large">
+                        Explorar comunidades
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <strong>2.4M+</strong>
+                        <span>usuários</span>
+                    </div>
+
+                    <div>
+                        <strong>18K+</strong>
+                        <span>comunidades</span>
+                    </div>
+
+                    <div>
+                        <strong>94M+</strong>
+                        <span>discussões</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- MOCKUP -->
+            <div class="hero-visual">
+
+                <div class="glow"></div>
+
+                <div class="social-window">
+
+                    <div class="window-header">
+                        <div class="window-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="window-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Pesquisar
+                        </div>
+                    </div>
+
+                    <div class="window-body">
+
+                        <aside class="mock-sidebar">
+
+                            <div class="sidebar-item active">
+                                <i class="fa-solid fa-house"></i>
+                                Início
+                            </div>
+
+                            <div class="sidebar-item">
+                                <i class="fa-solid fa-fire"></i>
+                                Em alta
+                            </div>
+
+                            <div class="sidebar-item">
+                                <i class="fa-solid fa-users"></i>
+                                Comunidades
+                            </div>
+
+                            <div class="sidebar-title">
+                                SUAS COMUNIDADES
+                            </div>
+
+                            <div class="sidebar-community">
+                                <span class="community-icon purple">D</span>
+                                Dev Brasil
+                            </div>
+
+                            <div class="sidebar-community">
+                                <span class="community-icon blue">G</span>
+                                Games
+                            </div>
+
+                            <div class="sidebar-community">
+                                <span class="community-icon green">T</span>
+                                Tecnologia
+                            </div>
+
+                        </aside>
+
+                        <div class="mock-feed">
+
+                            <div class="mock-post">
+
+                                <div class="post-community">
+                                    <span class="community-icon purple">D</span>
+
+                                    <div>
+                                        <strong>Dev Brasil</strong>
+                                        <small>há 2 horas</small>
+                                    </div>
+                                </div>
+
+                                <h3>
+                                    Qual tecnologia você acha que vai
+                                    dominar o desenvolvimento nos próximos anos?
+                                </h3>
+
+                                <p>
+                                    Estou curioso para saber o que a comunidade
+                                    está utilizando nos projetos atuais...
+                                </p>
+
+                                <div class="post-actions">
+                                    <span>
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                        2.8k
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-solid fa-comment"></i>
+                                        324
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-solid fa-share"></i>
+                                        Compartilhar
+                                    </span>
+                                </div>
+
+                            </div>
+
+
+                            <div class="mock-post">
+
+                                <div class="post-community">
+                                    <span class="community-icon blue">G</span>
+
+                                    <div>
+                                        <strong>Games</strong>
+                                        <small>há 4 horas</small>
+                                    </div>
+                                </div>
+
+                                <h3>
+                                    Qual foi o último jogo que realmente
+                                    te surpreendeu?
+                                </h3>
+
+                                <div class="post-actions">
+                                    <span>
+                                        <i class="fa-solid fa-arrow-up"></i>
+                                        1.7k
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-solid fa-comment"></i>
+                                        189
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-solid fa-share"></i>
+                                        Compartilhar
+                                    </span>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features" id="recursos">
+
+            <div class="section-heading">
+                <span class="section-label">POR QUE NEXUS?</span>
+
+                <h2>
+                    Uma comunidade feita
+                    <span>para você.</span>
+                </h2>
+
+                <p>
+                    Tudo o que você precisa para descobrir, compartilhar
+                    e conversar sobre aquilo que realmente gosta.
+                </p>
+            </div>
+
+
+            <div class="feature-grid">
+
+                <article class="feature-card">
+                    <div class="feature-icon purple-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+
+                    <h3>Comunidades</h3>
+
+                    <p>
+                        Encontre comunidades sobre programação, games,
+                        tecnologia, música, filmes e milhares de outros assuntos.
+                    </p>
+                </article>
+
+
+                <article class="feature-card">
+                    <div class="feature-icon orange-icon">
+                        <i class="fa-solid fa-arrow-up"></i>
+                    </div>
+
+                    <h3>Conteúdo relevante</h3>
+
+                    <p>
+                        Vote nas melhores publicações e ajude a comunidade
+                        a destacar aquilo que realmente merece atenção.
+                    </p>
+                </article>
+
+
+                <article class="feature-card">
+                    <div class="feature-icon blue-icon">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+
+                    <h3>Discussões reais</h3>
+
+                    <p>
+                        Participe de conversas, compartilhe experiências
+                        e conheça pessoas com os mesmos interesses.
+                    </p>
+                </article>
+
+
+                <article class="feature-card">
+                    <div class="feature-icon green-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                    <h3>Comunidade segura</h3>
+
+                    <p>
+                        Ferramentas de moderação e sistemas inteligentes
+                        ajudam a manter as comunidades saudáveis.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- COMMUNITIES -->
+        <section class="communities" id="comunidades">
+
+            <div class="section-heading">
+
+                <span class="section-label">EXPLORE</span>
+
+                <h2>
+                    Descubra sua
+                    <span>comunidade.</span>
+                </h2>
+
+                <p>
+                    Milhares de comunidades esperando por você.
+                </p>
+
+            </div>
+
+
+            <div class="community-grid">
+
+                <article class="community-card">
+
+                    <div class="community-cover tech-cover"></div>
+
+                    <div class="community-content">
+
+                        <div class="large-community-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+
+                        <h3>Programação</h3>
+
+                        <p>
+                            Tudo sobre desenvolvimento de software.
+                        </p>
+
+                        <div class="community-meta">
+                            <strong>482 mil</strong>
+                            membros
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="community-card">
+
+                    <div class="community-cover gaming-cover"></div>
+
+                    <div class="community-content">
+
+                        <div class="large-community-icon">
+                            <i class="fa-solid fa-gamepad"></i>
+                        </div>
+
+                        <h3>Games</h3>
+
+                        <p>
+                            Notícias, discussões e experiências gamer.
+                        </p>
+
+                        <div class="community-meta">
+                            <strong>721 mil</strong>
+                            membros
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="community-card">
+
+                    <div class="community-cover science-cover"></div>
+
+                    <div class="community-content">
+
+                        <div class="large-community-icon">
+                            <i class="fa-solid fa-flask"></i>
+                        </div>
+
+                        <h3>Ciência</h3>
+
+                        <p>
+                            Descubra e discuta o mundo ao nosso redor.
+                        </p>
+
+                        <div class="community-meta">
+                            <strong>293 mil</strong>
+                            membros
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <article class="community-card">
+
+                    <div class="community-cover art-cover"></div>
+
+                    <div class="community-content">
+
+                        <div class="large-community-icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+
+                        <h3>Criatividade</h3>
+
+                        <p>
+                            Arte, design, música e criação.
+                        </p>
+
+                        <div class="community-meta">
+                            <strong>184 mil</strong>
+                            membros
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta" id="sobre">
+
+            <div class="cta-content">
+
+                <span class="section-label">FAÇA PARTE</span>
+
+                <h2>
+                    Sua próxima grande
+                    <span>conversa começa aqui.</span>
+                </h2>
+
+                <p>
+                    Crie sua conta gratuitamente e comece a explorar
+                    milhares de comunidades.
+                </p>
+
+                <button class="btn-primary btn-large" id="ctaButton">
+                    Criar minha conta
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-atom"></i>
+                    </span>
+                    <span>Nexus</span>
+                </a>
+
+                <p>
+                    Comunidades que conectam pessoas e ideias.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Produto</h4>
+
+                <a href="#recursos">Recursos</a>
+                <a href="#comunidades">Comunidades</a>
+                <a href="#">Aplicativo</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Empresa</h4>
+
+                <a href="#sobre">Sobre</a>
+                <a href="#">Blog</a>
+                <a href="#">Carreiras</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Social</h4>
+
+                <a href="#">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-x-twitter"></i>
+                    Twitter
+                </a>
+
+                <a href="#">
+                    <i class="fa-brands fa-discord"></i>
+                    Discord
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <span>© 2026 Nexus. Todos os direitos reservados.</span>
+
+            <div>
+                <a href="#">Privacidade</a>
+                <a href="#">Termos</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <!-- MODAL -->
+    <div class="modal" id="signupModal">
+
+        <div class="modal-overlay"></div>
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-atom"></i>
+            </div>
+
+            <h2>Entre para o Nexus</h2>
+
+            <p>
+                Crie sua conta e comece a participar das comunidades.
+            </p>
+
+            <form id="signupForm">
+
+                <label for="name">Nome</label>
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Seu nome"
+                    required
+                >
+
+                <label for="email">E-mail</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="voce@email.com"
+                    required
+                >
+
+                <button class="btn-primary full-width" type="submit">
+                    Criar conta
+                </button>
+
+            </form>
+
+            <small>
+                Ao continuar, você concorda com nossos termos de uso.
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
